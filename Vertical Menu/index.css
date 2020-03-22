@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: rgb(224,224,224);	
+}
+/*bỏ bullet ở list*/
+div.menu ul{
+	list-style-type: none; 
+}
+/*điều chỉnh tổng menu*/
+div.menu{
+	width: 300px;
+	margin: 25px 200px;
+}
+div.menu a {
+  background-color: rgb(43,41,41); 	/*màu background*/ 
+  color: rgb(63,34,88); 			/*màu chữ*/ 
+  display: block; 					/*để các link thành block*/
+  padding: 10px;   					/*canh chỉnh chữ bên trong link*/
+  margin: 1px 5px; 					/*căn chỉnh block a*/
+  text-decoration: none; 			/* loại bỏ gạch chân từ link*/
+}
+/*khi di chuyển chuột tới*/
+div.menu a:hover{
+	background-color: white;
+	color: black;
+	transform: scale(1.2);			/*điều chỉnh kích thước*/
+	/*tạo shadow cho box*/
+	box-shadow: 1px 1px rgb(150,150,150);	
+}
+/*khi bấm vào*/
+div.menu a:active{
+	background-color: rgb(171,79,79);
+	color: black;
+}

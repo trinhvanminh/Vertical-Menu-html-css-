@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+            padding là khoảng cách bức tường với các đồ vật
+            margin là khoảng cách bên ngoài căn nhà với các thứ khác
+            
+        */
+        /*
+            selectors reference
+            cái bên dưới áp dụng cho all phần tử, các thẻ --> trả về toạ độ 0, reset css.
+         */
+         /*click and hover*/
+        *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+        
+        div.boxa{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin-bottom: 10px;
+            border: 1px solid black;
+        }
+        div.boxb{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+        /*box model w3school*  -> box sizing: border-box; --> để k giản box ra khi sd border */
+        /*
+        width = margin ( left + right) + padding ( left + right) + width ( phần tử) 
+        */
+
+
+    </style>
+</head>
+<body>
+    <div class="boxa">
+        abc
+    </div>
+    <div class="boxb">
+        abc
+    </div>
+</body>
+</html>
